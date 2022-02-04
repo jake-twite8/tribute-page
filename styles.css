@@ -66,3 +66,15 @@
     transform: translateX(-50%);
     box-shadow: 0 0 9px 5px rgba(0, 0, 0, 0.2);
 }
+
+#video{
+    position: relative;
+    padding: 20px;
+}
+
+#video_Text{
+    position: relative;
+    color: white; 
+    font-weight: bold;
+    padding-top: 20px;
+}
