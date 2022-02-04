@@ -2,6 +2,7 @@
 
 *{
     font-family: 'Montserrat', sans-serif;
+    color: #404040;
 }
 
 #socials-container{
@@ -28,5 +29,40 @@
     transform: translateX(-50%);
     margin-top: 50px;
     border-radius: 10px;
+    box-shadow: 0 0 9px 5px rgba(0, 0, 0, 0.2);
+}
+
+#bio_text{
+    padding: 50px;
+    color: white;
+    background-color: #404040;
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bio_p{
+    color: white;
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.carousel-item{
+    height: 600px;
+} 
+.carousel-item img{
+    height: 600px;
+}
+
+#image_carousel{
+    position: relative; 
+    width: 60%; 
+    left: 50%; 
+    margin-top: 50px;
+    transform: translateX(-50%);
     box-shadow: 0 0 9px 5px rgba(0, 0, 0, 0.2);
 }
