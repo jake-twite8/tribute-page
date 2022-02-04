@@ -20,3 +20,13 @@
 .icons:hover{
     color:  #909090;
 }
+
+#main_pic{
+    position: relative;
+    height: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 9px 5px rgba(0, 0, 0, 0.2);
+}
